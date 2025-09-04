@@ -17,13 +17,13 @@ Este script é útil para demonstrar como dados de pesquisa podem ser coletados 
 # ⚙️ Pré-requisitos
 ## Para executar este código, você precisa ter as seguintes bibliotecas Python instaladas:
 
-"""matplotlib"""
+```matplotlib```
 
-'''pandas'''
+```pandas```
 
 ## Se você ainda não as tem, instale-as usando o *pip*:
 
-'''pip install matplotlib pandas'''
+```pip install matplotlib pandas```
 
 # 🚀 Como Usar
 
@@ -31,7 +31,7 @@ Este script é útil para demonstrar como dados de pesquisa podem ser coletados 
 
 * Execute o Script: Abra seu terminal ou prompt de comando, navegue até o diretório onde você salvou o arquivo e execute-o com o Python:
 
-'''python simulador_pesquisa.py'''
+```python simulador_pesquisa.py```
 
 * Visualize os Resultados: Após a execução, o script irá imprimir os resultados em texto no terminal e, em seguida, abrirá uma janela com os gráficos gerados. Cada gráfico representa uma pergunta da pesquisa, mostrando a distribuição dos 3 votos simulados. Feche um gráfico para que o próximo seja exibido.
 
@@ -40,6 +40,6 @@ Você pode facilmente modificar o comportamento do script:
 
 - *Alterar o Número de Votos:* Mude o valor da variável *num_votos* no início do código para simular um número diferente de participantes. Por exemplo, para simular 10 votos, altere a linha para:
 
-'''num_votos = 10'''
+```num_votos = 10```
 
 - *Adicionar Novas Perguntas:* Você pode incluir mais perguntas ou modificar as existentes no dicionário *perguntas*. Certifique-se de manter o formato *{"pergunta": "...", "opcoes": ["..."]}* e adicione a chave *"multipla_escolha": True* se a pergunta permitir mais de uma resposta.
